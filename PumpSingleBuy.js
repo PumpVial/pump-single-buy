@@ -18,7 +18,7 @@ const payload = {
 //////////////////////////////// END ////////////////////////////////////////
 
 const buyPumpSingle = async () => {
-  const URL = "https://pumpvial.com/api/pump-single-buy";
+  const URL = "https://api.pumpvial.com/pump-single-buy";
 
   try {
     const request = await axios.post(URL, payload, {
